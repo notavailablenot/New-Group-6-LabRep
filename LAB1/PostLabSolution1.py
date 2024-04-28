@@ -1,4 +1,9 @@
-sorted_numbers = [2,4,5,2,3,4,5,2,23,4,7,5,4,43] 
+sorted_numbers = []
+
+print("Set Size 15")
+
+for i in range(15):
+    sorted_numbers.append(int(input('Enter Value List: ')))
 
 def median(numbers):
     sorted_numbers = sorted(numbers)
@@ -22,8 +27,7 @@ def mode(numbers):
 def mean(numbers):
     return sum(numbers) / len(numbers)
 
+print("List: ", sorted_numbers)
 print("Mean: ", mean(sorted_numbers))
 print("Median: ", median(sorted_numbers))
 print("Mode: ", mode(sorted_numbers))
-
-
