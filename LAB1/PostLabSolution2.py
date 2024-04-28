@@ -19,7 +19,6 @@ def print_file_lines(filename):
 
             print("Line {}: {}" .format(line_num, lines[line_num - 1]))    
 
-    filename = input('Enter a filename: ')      
-    
-    print_file_lines(filename)
+filename = input('Enter a filename: ')      
+print_file_lines(filename)
         
