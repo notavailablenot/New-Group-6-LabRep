@@ -44,18 +44,14 @@ def main():
     student2 = Student("Gwen", 5)
     student3 = Student("Ken", 3)
     
-    # First method test for equality
-    print(student1 == student2)  # False
-    print(student1 == student3)  # True
+    print(student1 == student2)  
+    print(student1 == student3)  
     
-    # Second method test for less than
-    print(student1 < student2)  # True
-    print(student1 < student3)  # False
+    print(student1 < student2)  
+    print(student1 < student3)  
     
-    # Third method test for greater than or equal to
-    print(student1 >= student2)  # False
-    print(student1 >= student3)  # True
-
+    print(student1 >= student2)  
+    print(student1 >= student3)  
 
 if __name__ == "__main__":
     main()
