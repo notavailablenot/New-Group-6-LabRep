@@ -2,7 +2,7 @@ import random
 
 class Card:
     def __init__(self, rank, suit):
-        self.rank = rank-
+        self.rank = rank
         self.suit = suit
 
     def get_rank(self):
